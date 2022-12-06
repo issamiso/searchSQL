@@ -1,4 +1,6 @@
 # searchSQL
-# Termux and kali linux ✓
+# Termux  ✓
+-$ apt install git&&git clone https://github.com/issamiso/searchSQL && cd searchSQL &&chmod +x *&&bash termux.sh 
 
--$ apt install git&&git clone https://github.com/issamiso/searchSQL && cd searchSQL &&chmod +x *&&bash setup.sh 
+# kali ✓
+/root~:$ apt install git -y &&git clone https://github.com/issamiso/searchSQL && cd searchSQL&&bash kali.sh
