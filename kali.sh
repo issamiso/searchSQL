@@ -11,7 +11,8 @@ apt install python -y
 apt install python2 -y
 apt install python3 -y
 apt install pip -y
-cp .sQlserch.py
+cp .sQlserch.py $HOME
+cd searchSQL
 mv sQl /bin
 cd /bin;chmod +x sQl
 echo -e "$r[*] Start sqlsearch > $g sQl"
