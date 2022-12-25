@@ -12,7 +12,9 @@ pkg install python -y
 pkg install python2 -y
 pkg install python3 -y
 pkg install pip -y
-mv .sQlserch.py $HOME 
+mv .sQlserch.py /data/data/com.termux/files/usr/etc
+cd $HOME
+cd searchSQL
 mv sqt /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/usr/bin;chmod +x sqt
 echo -e "$r[*] Start sql search > $g sqt"
